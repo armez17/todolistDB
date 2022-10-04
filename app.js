@@ -6,7 +6,7 @@ const _ = require("lodash");
 const app = express();
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://armez:<password>@cluster0.dj0erf0.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://armez:ProjectD17@cluster0.dj0erf0.mongodb.net/todolistDB");
 // const { MongoClient, ServerApiVersion } = require('mongodb');
 // const uri = "mongodb+srv://armez:ProjectD17@cluster0.dj0erf0.mongodb.net/todolistDB";
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
